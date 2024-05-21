@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 47px 0 0 42px;
+    display: inline-block;
+}
+
+.main-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    color: #17233D;
+    margin-right: 32px;
+    
+}
+
+.ilustracao{
+    width: 595.18px;
+    height: 500px;
+    padding-left: 121px;
+    display: inline-block;
+    margin-top: 163px;
+}
+
+.signup-button{
+    background-color: #6FBF44;
+    border-radius: 5px;
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.signup-button:hover{
+    background-color: #54ab25;
+}
+
+.signup-button:active{
+    opacity: .7;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: 47px;
+    width: 562px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color:#4B505A;
+    width: 493px;
+    margin-bottom: 45px;
+}
+
+.learn-link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color:#6FBF44;
+    text-decoration: none
+    ;
+
+}
+
+@media screen and (max-width: 900px){
+
+    .ilustracao {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 60%;
+        margin: auto 0;
+        padding: 20px;
+    }
+        
+
+    section{
+        width: 100%;
+        height: 60%;
+        margin: 0 auto;
+        position: absolute;
+        top: 15%;
+    }
+
+    .main-link{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        align-items: center;
+        width: auto;
+        margin: 0 55px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        align-items: center;
+        width: auto;
+        margin: 29px 43px;
+    }
+
+    .learn-link{
+        width: auto;
+        margin: 0 139px;
+    }
+
+    .signup-button{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+
+    header {
+        margin: 17px 0 0 0;
+        display: inline-block;
+        position: absolute;
+        left: 280px;
+    }
+}
